@@ -60,3 +60,4 @@ disableKinds = ["taxonomy", "term"]
     extended = false
     min = "0.86.1"
     
+
