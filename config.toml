@@ -1,20 +1,20 @@
-baseURL = "https://bortox.it/contribuisci-cs"
-languageCode = "it"
-defaultContentLanguage = "it"
+baseURL = "https://bortox.it/contribuisci-cs-en"
+languageCode = "en"
+defaultContentLanguage = "en"
 
-title = "Fai una donazione"
-copyright = "Utilizzerò queste donazioni per sostenere i costi del **server** e del **nome di dominio**, oltre al mio lavoro. Altrimenti, invece di soldi puoi sempre inviare una critica costruttiva per **migliorare il sito web** a bort0x@tuta.io! "
+title = "Make a donation"
+copyright = "I will use these donations to support the costs of the **server** and **domain name**, in addition to my own work. Otherwise, instead of money you can always send constructive criticism to **improve the website** to bort0x@tuta.io!"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
 [author]
-  name = "Fai una donazione sicura :lock: a bortox.it"
+  name = "Make a secure donation :lock: to bortox.it"
   image = "bortox-it.png"  # path relative to static directory
 
   links = [
-    { stripe = { href= "https://donate.stripe.com/dR69BB66G13t7yo000", text = "Offrimi una schiacciata" }},
-    { stripe = { href= "https://donate.stripe.com/9AQ3dd0MmeUj2e4001", text = "Scegli quanto donare" }},
+    { stripe = { href= "https://donate.stripe.com/dR69BB66G13t7yo000", text = "Offer me some focaccia 🫓" }},
+    { stripe = { href= "https://donate.stripe.com/00gcNN66GaE3f0Q002", text = "Choose how much to give" }},
     { paypal = { href= "https://paypal.me/bort0x", text = "PayPal" }},
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
@@ -51,7 +51,7 @@ disableKinds = ["taxonomy", "term"]
     # { twitter = "https://twitter.com/username" },
     # { whatsapp = "https://wa.me/phone-number" },
     # { youtube = "https://youtube.com/username" },
-    { exit = {href="https://bortox.it/", text="Torna su bortox.it"}},
+    { exit = {href="https://bortox.it/en", text="Back to bortox.it :home:"}},
   ]
 
 [module]
