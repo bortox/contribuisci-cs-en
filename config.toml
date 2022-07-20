@@ -2,21 +2,20 @@ baseURL = "https://bortox.it/contribuisci-cs"
 languageCode = "it"
 defaultContentLanguage = "it"
 
-title = "Contribuisci a Compiti Scolastici"
-# copyright = "Copy, _right?_ :thinking_face:"
+title = "Fai una donazione"
+copyright = "Utilizzerò queste donazioni per sostenere i costi del **server** e del **nome di dominio**, oltre al mio lavoro. Altrimenti, invece di soldi puoi sempre inviare una critica costruttiva per **migliorare il sito web** a bort0x@tuta.io! "
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
 [author]
-  name = "Contribuisci a Compiti Scolastici"
-  image = "kilua2hq.jpg"  # path relative to static directory
+  name = "Fai una donazione sicura :lock: a bortox.it"
+  image = "bortox-it.png"  # path relative to static directory
 
   links = [
-     
+    { stripe = { href= "https://donate.stripe.com/dR69BB66G13t7yo000", text = "Offrimi una schiacciata" }},
+    { stripe = { href= "https://donate.stripe.com/9AQ3dd0MmeUj2e4001", text = "Scegli quanto donare" }},
     { paypal = { href= "https://paypal.me/bort0x", text = "PayPal" }},
-    { ko-fi = { href= "https://ko-fi.com/compitiscolastici", text = "Buy me a coffee" }},
-	
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
     # { codepen = "https://codepen.io/username" },
@@ -26,7 +25,7 @@ disableKinds = ["taxonomy", "term"]
     # { facebook = "https://facebook.com/username" },
     # { flickr = "https://www.flickr.com/photos/username/" },
     # { foursquare = "https://foursquare.com/username" },
-    { github = {href = "https://github.com/bortox/Compiti-scolastici", text = "Source Code" }},
+    # { github = {href = "https://github.com/bortox/", text = "Source Code" }},
     # { gitlab = "https://gitlab.com/username" },
     #{ google = "https://www.google.com/" },
     # { instagram = "https://instagram.com/username" },
@@ -34,7 +33,7 @@ disableKinds = ["taxonomy", "term"]
     # { kickstarter = "https://www.kickstarter.com/profile/username" },
     # { lastfm = "https://lastfm.com/user/username" },
     # { linkedin = "https://linkedin.com/in/username" },
-    { email = { href = "mailto:bortox@bortox.it" , text = "Email" }},
+    # { email = { href = "mailto:bortox@bortox.it" , text = "Email" }},
     # { mastodon = "https://mastodon-instance/username" },
     # { medium = "https://medium.com/username" },
     # { microsoft = "https://www.microsoft.com/" },
@@ -52,7 +51,7 @@ disableKinds = ["taxonomy", "term"]
     # { twitter = "https://twitter.com/username" },
     # { whatsapp = "https://wa.me/phone-number" },
     # { youtube = "https://youtube.com/username" },
-    { exit = {href="https://bortox.it/Compiti-scolastici", text="Esci"}},
+    { exit = {href="https://bortox.it/", text="Torna su bortox.it"}},
   ]
 
 [module]
