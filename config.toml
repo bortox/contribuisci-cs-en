@@ -3,19 +3,19 @@ languageCode = "en"
 defaultContentLanguage = "en"
 
 title = "Make a donation"
-copyright = "I will use these donations to support the costs of the **server** and **domain name**, in addition to my own work. Otherwise, instead of money you can always send constructive criticism to **improve the website** to bort0x@tuta.io!"
+copyright = "I will use these donations to support the costs of the **server** and **domain name**, in addition to my own work. Otherwise, instead of money you can always send your ideas to **improve the website** to bort0x [at] tuta.io!"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
 [author]
-  name = "Make a secure donation :lock: to bortox.it"
+  name = "Help bortox.it stay ad-free and full of new and interesting content."
   image = "bortox-it.png"  # path relative to static directory
-
+  headline = "Help bortox.it stay ad-free and full of new and interesting content."
   links = [
+    { paypal = { href= "https://www.paypal.com/donate/?hosted_button_id=EXM9CJNDTLCZJ", text = "Donate with PayPal" }},
     { stripe = { href= "https://donate.stripe.com/dR69BB66G13t7yo000", text = "Offer me some focaccia 🫓" }},
-    { stripe = { href= "https://donate.stripe.com/00gcNN66GaE3f0Q002", text = "Choose how much to give" }},
-    { paypal = { href= "https://paypal.me/bort0x", text = "PayPal" }},
+    { stripe = { href= "https://donate.stripe.com/00gcNN66GaE3f0Q002", text = "Choose how much to give with Stripe" }},
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
     # { codepen = "https://codepen.io/username" },
